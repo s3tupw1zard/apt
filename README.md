@@ -17,7 +17,7 @@ sudo mkdir -p /etc/apt/keyrings
 Download gpg key file into `/etc/apt/keyrings`:
 
 ```bash
-wget -O /etc/apt/keyrings/s3tupw1zard-apt-noble.gpg https://s3tupw1zard.github.io/apt/dists/noble/Release.gpg
+sudo wget -O /etc/apt/keyrings/s3tupw1zard-apt-noble.gpg https://s3tupw1zard.github.io/apt/dists/noble/Release.gpg
 ```
 
 Add the noble repository to apt:
