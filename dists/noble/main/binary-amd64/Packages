@@ -1,0 +1,24 @@
+Package: zsh-autosuggestions
+Priority: optional
+Section: shells
+Installed-Size: 43
+Maintainer: Mo Zhou <lumin@debian.org>
+Architecture: all
+Version: 0.7.1-1
+Depends: zsh
+Filename: pool/main/z/zsh-autosuggestions/zsh-autosuggestions_0.7.1-1_all.deb
+Size: 14680
+MD5sum: 8c3366d723275d1bfadbe8099b4328d7
+SHA1: 71f2b6ad98a7a7655cebb2b046e87a3be454a1e1
+SHA256: 31570648e2dfd95ffb14e7d77be91050be48f90818a8b2f055827b803ed11a2a
+SHA512: aaeba2f1fec2f5e09012676ace94fdaff33beacd661fb4ca4fbceb38ac27f392260d2a05bcd8cf1ece87d500038b75a95f5ca73c72a3690af02c2726eac59c9a
+Description: Fish-like fast/unobtrusive autosuggestions for zsh
+ As you type commands, you will see a completion offered after the cursor
+ in a muted gray color. If you press the right-arrow key or End with the
+ cursor at the end of the buffer, it will accept the suggestion, replacing
+ the contents of the command line buffer with the suggestion. If you invoke
+ the forward-word widget, it will partially accept the suggestion up to the
+ point that the cursor moves to.
+Enhances: zsh
+Homepage: https://github.com/zsh-users/zsh-autosuggestions
+
